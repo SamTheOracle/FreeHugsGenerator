@@ -28,9 +28,9 @@ $(document).ready(function(){
 function onMainClick(){
   console.log("hi little shit");
   mainDiv.remove()
-  var newDiv ='<h1 class="display-2 text-center">Press the button for a random hug pic!</h1><div class="content" style="  animation: slide-up 2s ease"><div class="row align-items-center" ><div class="col "></div><div class="col d-flex justify-content-center"><a id="picsbtn" class="btn-floating btn-large waves-effect waves-light red" ><i class="material-icons">refresh</i></a></div><div class="col"></div></div><div class="row align-items-center"><div class="col"><img src="http://en.bcdn.biz/images/emails_source/5aa1d06c-d409-4d4a-8d4f-d90f51350047.jpg"></div></div></div>'
+  var newDiv ='<div class="content" style="  animation: slide-up 2s ease"><div class="row align-items-center" ><div class="col "></div><div class="col d-flex justify-content-center"><a id="picsbtn" class="btn-floating btn-large waves-effect waves-light red" ><i class="material-icons">refresh</i></a></div><div class="col"></div></div><div class="row align-items-center"><div class="col"><img src="http://en.bcdn.biz/images/emails_source/5aa1d06c-d409-4d4a-8d4f-d90f51350047.jpg"></div></div></div>'
   if($(window).width()<=800){
-    var newDiv ='<h1 class="display-4 text-center">Press the button for a random hug pic!</h1><div class="content" style="  animation: slide-up 2s ease"><div class="row align-items-center" ><div class="col "></div><div class="col d-flex justify-content-center"><a id="picsbtn" class="btn-floating btn-large waves-effect waves-light red" ><i class="material-icons">refresh</i></a></div><div class="col"></div></div><div class="row align-items-center"><div class="col"><img src="http://en.bcdn.biz/images/emails_source/5aa1d06c-d409-4d4a-8d4f-d90f51350047.jpg"></div></div></div>'
+    var newDiv ='<div class="content" style="  animation: slide-up 2s ease"><div class="row align-items-center" ><div class="col "></div><div class="col d-flex justify-content-center"><a id="picsbtn" class="btn-floating btn-large waves-effect waves-light red" ><i class="material-icons">refresh</i></a></div><div class="col"></div></div><div class="row align-items-center"><div class="col"><img src="http://en.bcdn.biz/images/emails_source/5aa1d06c-d409-4d4a-8d4f-d90f51350047.jpg"></div></div></div>'
   }
   $('body').append(newDiv)
   $('#picsbtn').click(function(){
